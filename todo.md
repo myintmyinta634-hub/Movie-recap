@@ -21,7 +21,7 @@
 - [x] Render deployment configuration
 - [x] Environment variables setup for deployment
 - [x] Health check endpoint
-- [ ] GitHub repository sync to main branch
+- [x] GitHub repository sync to main branch
 
 ## Design & UX
 
