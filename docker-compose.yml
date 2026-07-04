@@ -14,4 +14,4 @@ services:
     volumes:
       - .:/app
       - /app/node_modules
-    command: pnpm start
+    command: npm start

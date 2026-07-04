@@ -3,8 +3,8 @@ services:
     name: movie-recap-web
     env: node
     plan: starter
-    buildCommand: pnpm install && pnpm build
-    startCommand: pnpm start
+    buildCommand: npm install && npm run build
+    startCommand: npm start
     healthCheckPath: /api/health
     envVars:
       - key: GEMINI_API_KEY
