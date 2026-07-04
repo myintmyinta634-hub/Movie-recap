@@ -1,0 +1,13 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1783173793621,
+      "tag": "0000_stiff_squadron_supreme",
+      "breakpoints": true
+    }
+  ]
+}

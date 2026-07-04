@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: movie-recap-web
+    env: node
+    plan: starter
+    buildCommand: pnpm install && pnpm build
+    startCommand: pnpm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
